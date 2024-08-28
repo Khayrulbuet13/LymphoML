@@ -1,0 +1,14 @@
+torch==2.0.1
+torchvision==0.15.2
+torchaudio
+torchsummary
+LymphoMNIST
+imgaug
+comet-ml
+poutyne
+matplotlib
+numpy
+pandas
+scikit-learn
+# scipy
+seaborn

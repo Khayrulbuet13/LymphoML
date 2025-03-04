@@ -1,0 +1,12 @@
+dataset/
+.history/
+.bac
+
+__pycache__/
+checkpoint/
+configs/secrets.json
+**/__pycache__/
+*.pyc
+**/.pyc
+README.pdf
+inference.ipynb

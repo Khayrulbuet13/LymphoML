@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="A real-time, label-free deep learning framework for cell classification and sorting, 
+        optimized for FPGA deployment. Achieves ultra-low inference latency with high accuracy.">
+  <meta property="og:title" content="Real-Time Cell Sorting with Scalable In Situ FPGA-Accelerated Deep Learning"/>
+  <meta property="og:description" content="A high-speed, label-free deep learning framework for real-time cell 
+        classification and sorting. Features FPGA acceleration with ultra-low latency and high accuracy."/>
+  <meta property="og:url" content="http://khayrulbuet13.github.io/lymphoML"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/banner.png" />
+  <!-- <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+  <meta property="og:image:width" content="3558"/>
+  <meta property="og:image:height" content="1227"/>
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="real-time cell sorting, FPGA deep learning, 
+      label-free cell classification, machine learning for biomedical imaging, 
+      in situ deep learning, lymphocyte classification, high-speed microscopy, 
+      biomedical AI, real-time inference, cell detection AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>LymphoML</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+
+
+<!-- Hero Section with Updated Authors -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            Real-Time Cell Sorting with Scalable In Situ FPGA-Accelerated Deep Learning
+          </h1>
+
+          <!-- Authors in Single Line with Superscripts -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#" target="_blank">Khayrul Islam</a><sup>1</sup>, 
+              <a href="#" target="_blank">Ryan F. Forelli</a><sup>2</sup>, 
+              <a href="#" target="_blank">Jianzhong Han</a><sup>3</sup>, 
+              <a href="#" target="_blank">Deven Bhadane</a><sup>1</sup>, 
+              <a href="#" target="_blank">Jian Huang</a><sup>3,4,5</sup>, 
+              <a href="#" target="_blank">Joshua C. Agar</a><sup>6</sup>, 
+              <a href="#" target="_blank">Nhan Tran</a><sup>7</sup>, 
+              <a href="#" target="_blank">Seda Ogrenci</a><sup>2</sup>, 
+              <a href="#" target="_blank">Yaling Liu</a><sup>1</sup>
+            </span>
+          </div>
+
+          <!-- Institutions Listed Below -->
+          <div class="is-size-5 publication-authors" style="margin-top: 10px; color: gray;">
+            <span class="author-block"><sup>1</sup> Lehigh University, Bethlehem, PA, USA</span><br>
+            <span class="author-block"><sup>2</sup> Northwestern University, Evanston, IL, USA</span><br>
+            <span class="author-block"><sup>3</sup> Coriell Institute for Medical Research, Camden, NJ, USA</span><br>
+            <span class="author-block"><sup>4</sup> Cooper Medical School of Rowan University, Camden, NJ, USA</span><br>
+            <span class="author-block"><sup>5</sup> Center for Metabolic Disease Research, Temple University, Philadelphia, PA, USA</span><br>
+            <span class="author-block"><sup>6</sup> Drexel University, Philadelphia, PA, USA</span><br>
+            <span class="author-block"><sup>7</sup> Fermi National Accelerator Laboratory, Batavia, IL, USA</span>
+          </div>
+
+          <!-- Publication Links -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Supplementary PDF link -->
+              <span class="link-block">
+                <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/Khayrulbuet13/LymphoML" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser Image Section -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <!-- Image Display -->
+        <img src="static/images/KD.gif" alt="Weight Space Learning Diagram" width="100%">
+        
+        <!-- Caption / Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+          <p>
+            Label-free image-based cell classification offers a more direct, cost-effective, and minimally invasive 
+            alternative to traditional methods that rely on molecular labeling. Our work focuses on developing a 
+            teacher-student machine learning (ML) framework that accurately recognizes various lymphocyte types 
+            (T4, T8, B) from bright-field microscopy images in real time. By leveraging knowledge distillation (KD) 
+            and deploying the student model on FPGA hardware, we unlock ultra-low inference latencies and pave the 
+            way for new state-of-the-art (SOTA) real-time cell sorting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Teaser Image Section -->
+
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Precise cell classification is essential in biomedical diagnostics and therapeutic monitoring, particularly for identifying diverse cell types involved in various diseases. Traditional cell classification methods such as flow cytometry depend on molecular labeling which is often costly, time-intensive, and can alter cell integrity. To overcome these limitations, we present a label-free machine learning framework for cell classification, designed for real-time sorting applications using bright-field microscopy images. This approach leverages a teacher-student model architecture enhanced by knowledge distillation, achieving high efficiency and scalability across different cell types. Demonstrated through a use case of classifying lymphocyte subsets, our framework accurately classifies T4, T8, and B cell types with a dataset of 80,000 preprocessed images, accessible via an open-source Python package for easy adaptation. Our teacher model attained 98% accuracy in differentiating T4 cells from B cells and 93% accuracy in zero-shot classification between T8 and B cells. Remarkably, our student model operates with only 0.02% of the teacher model's parameters, enabling field-programmable gate array (FPGA) deployment. Our FPGA-accelerated student model achieves an ultra-low inference latency of just 14.5 μs and a complete cell detection-to-sorting trigger time of 24.7 μs, delivering 12x and 40x improvements over the previous state-of-the-art (SOTA) real-time cell analysis algorithm in inference and total latency, respectively, while preserving accuracy comparable to the teacher model. This framework provides a scalable, cost-effective solution for lymphocyte classification, as well as a new SOTA real-time cell sorting implementation for rapid identification of subsets using in situ deep learning on off-the-shelf computing hardware.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Dataset Description -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        
+        <!-- Dataset Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+          <h2 class="title is-4">Dataset Composition</h2>
+          <p>
+            We created <strong>LymphoMNIST</strong>, a dataset of <strong>80,000</strong> high-resolution bright-field 
+            images of lymphocyte cells, including <strong>T4, T8, and B cells</strong>. Each image is carefully 
+            preprocessed and standardized to enhance model training and generalization across different conditions. 
+            To ensure balanced and effective training, the dataset is split into 80% for training, 
+            10% for validation, and 10% for testing. Images were collected under diverse environmental 
+            conditions to introduce natural variations, making the dataset robust for real-world applications.
+          </p>
+          <p>
+            For easy access and reproducibility, LymphoMNIST is publicly available and can be 
+            installed using:
+          </p>
+          <pre><code>pip install LymphoMNIST</code></pre>
+          <p>
+            Researchers can explore the dataset details, preprocessing pipeline, and implementation examples on 
+            <a href="https://github.com/Khayrulbuet13/LymphoMNIST" target="_blank">
+              <strong>GitHub</strong></a>.
+          </p>
+        </div>
+
+        <!-- Image Display -->
+        <img src="static/images/data.svg" alt="Weight Space Learning Diagram" width="100%">
+        
+        
+        <!-- Caption / Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset Description Section -->
+
+
+
+<!-- Teacher Model Performance -->
+<section class="section hero is-light-blue">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        
+        <!-- Dataset Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+          <h2 class="title is-4">Teacher Model Performance</h2>
+          <p>
+            Our teacher model provides a robust foundation for label-free cell classification by relying on bright-field 
+            microscopy images rather than costly fluorescence-based assays. Its architecture is intentionally deep to 
+            capture fine-grained morphological distinctions among lymphocytes, focusing initially on T4 and B cells. 
+            By converting images into high-dimensional feature maps, the teacher network learns subtle visual cues 
+            correlated with cell subtype, such as shape and texture.
+          </p>
+          <p>
+            During training, we applied balanced sampling to address class imbalances and employed data augmentation 
+            strategies to improve generalization. These design choices helped mitigate 
+            overfitting and enabled the model to achieve consistent accuracy scores that surpassed various prior methods. 
+            In particular, this approach attained over 98% classification accuracy when distinguishing T4 cells from B 
+            cells across multiple test sets. Additionally, its performance remained stable when encountering slight shifts 
+            in image conditions, demonstrating real-world adaptability.
+          </p>
+          <p>
+            Beyond numeric metrics, the teacher model’s principal innovation is offering a reproducible, open-source 
+            workflow that is tuned for biomedical images. This fosters community-driven collaboration, allowing researchers 
+            to build on the established architecture and methodology for other specialized tasks. Altogether, the teacher 
+            model stands as a validated and scalable pillar that informs subsequent optimizations and extensions.
+          </p>
+          <p>
+            The model training recipe can be found on 
+            <a href="https://github.com/Khayrulbuet13/LymphoML" target="_blank"><strong>GitHub</strong></a>.
+          </p>
+
+        </div>
+
+        <!-- Image Display -->
+        <img src="static/images/teacher.svg" alt="Weight Space Learning Diagram" width="100%">
+        
+        
+        <!-- Caption / Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset Description Section -->
+
+
+
+
+
+
+
+<!-- TL Performance -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        
+        <!-- Dataset Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+          <h2 class="title is-4">Transfer Learning</h2>
+
+          <p>
+            Leveraging representations learned by the teacher model, our transfer learning framework efficiently 
+            adapts to new classification tasks with minimal retraining. Specifically, we evaluated its efficiency 
+            in extending from <strong>T4–B cell classification</strong> to the new task of <strong>T8–B cell 
+            classification</strong>. Without additional training, the teacher model (<em>Transfer 0</em>) already 
+            shows reasonable baseline performance, which significantly improves after just a few epochs of fine-tuning 
+            (<em>Transfer</em>).
+          </p>
+          <p>
+            Our approach requires fewer epochs and substantially less annotated data, benefiting from <strong>label-free 
+            imaging modalities</strong> since the pretrained model inherently captures key morphological features 
+            distinguishing lymphocyte subtypes. Even under varying imaging conditions, the transfer learning method 
+            demonstrates robust generalization across domains.
+          </p>
+          <p>
+            Additionally, we tested the model's robustness on an 
+            <a href="https://ssbd.riken.jp/repository/237/" target="_blank">external dataset</a>, evaluating 
+            classification accuracy for other hematological cell types. Results showed a <strong>1% accuracy 
+            increase</strong> for T-cell vs. leukemia classification compared to an ImageNet-pretrained ResNet50, 
+            highlighting the advantage of incorporating <strong>domain-specific knowledge</strong>. Our framework 
+            also supports <strong>zero-shot inference</strong>, enabling classification of unseen lymphocyte subsets
+            without explicit training data. This capability enhances the practical utility of our method for rapid
+            adaptation in diverse imaging settings or when identifying emerging cell phenotypes. 
+          </p>
+            
+
+        </div>
+
+        <!-- Image Display -->
+        <img src="static/images/TL.svg" alt="Weight Space Learning Diagram" width="100%">
+        
+        
+        <!-- Caption / Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset Description Section -->
+
+
+
+
+
+<!-- KD Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        
+        <!-- Dataset Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+          <h2 class="title is-4">SOTA Latency Student Model via KD </h2>
+          <p>
+            Building upon the teacher model’s high accuracy, our student model refines the process for ultra-low latency, 
+            real-time cell sorting through knowledge distillation (KD). By systematically transferring the teacher’s learned 
+            representations, the student replicates core classification capabilities but operates with only 
+            <strong>0.02% of the original parameter count</strong>. This reduction in complexity substantially lowers computational 
+            overhead, enabling the student network to achieve <strong>SOTA 14.5 µs inference time</strong> on 
+            field-programmable gate array (FPGA) hardware.
+          </p>
+          <p>
+            While GPUs excel at parallel processing, they introduce additional overhead in data transfer, making them less 
+            optimal for instantaneous tasks. In contrast, deploying the distilled model directly on the FPGA eliminates 
+            external latency and capitalizes on the hardware’s inherent parallelism. This setup allows each cell’s 
+            morphological data to be processed immediately upon capture, ensuring near-instantaneous feedback for downstream 
+            sorting apparatuses.
+          </p>
+          <p>
+            Critically, the student model approximates the teacher’s accuracy metrics, thereby delivering both speed and 
+            reliability. When integrated into a continuous workflow, it not only accelerates classification but also sustains 
+            strong performance across various image conditions. This breakthrough in <strong>latency and efficiency 
+            redefines the benchmark for in situ deep learning</strong> in biomedical imaging, influencing how future 
+            diagnostic tools and research pipelines are conceived and deployed.
+          </p>
+
+        </div>
+
+        <!-- Image Display -->
+        <!-- <img src="static/images/FPGA.html" alt="Weight Space Learning Diagram" width="100%"> -->
+        <iframe src="static/images/FPGA.html" width="120%" height="600px" style="border:none; margin-left: -10%; margin-right: -10%;"></iframe>
+
+        <!-- Caption / Description -->
+        <div class="content has-text-justified" style="max-width: 120%; margin-left: -10%; margin-right: -10%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset Description Section -->
+
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre style="margin-top: 0; padding-left: 0;">
+  <code>@article{islam2025realtime,
+    title={Real-Time Cell Sorting with Scalable In Situ FPGA-Accelerated Deep Learning},
+    author={Islam, Khayrul and Forelli, Ryan F. and Han, Jianzhong and Bhadane, Deven and Huang,
+    Jian and Agar, Joshua C. and Tran, Nhan and Ogrenci, Seda and Liu, Yaling},
+    journal={arXiv preprint arXiv:2410.XXXXX},  % <-- Replace with actual arXiv ID
+    year={2025}
+  }
+</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<!-- Start Footer Section -->
+<footer class="footer has-background-light" style="padding: 2rem 1.5rem;">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Supported by the National Science Foundation (NSF).</strong>
+    </p>
+    <p>
+      &copy; 2025 Lehigh University. All rights reserved.
+    </p>
+  </div>
+</footer>
+<!-- End Footer Section -->
+
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

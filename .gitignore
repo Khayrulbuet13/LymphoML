@@ -1,0 +1,24 @@
+# Directories
+dataset/
+.history/
+.bac
+__pycache__/
+checkpoint/
+configs/
+data/
+images/
+models/
+callbacks/
+**/__pycache__/
+
+# Python files
+*.py
+*.pyc
+**/.pyc
+
+# Other files
+README.md
+README.pdf
+requirements.txt
+run_examples.sh
+inference.ipynb

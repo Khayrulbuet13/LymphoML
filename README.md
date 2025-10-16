@@ -67,19 +67,27 @@ Follow these steps to set up the LymphoML framework and start classifying lympho
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LymphoML.git
+git clone https://github.com/Khayrulbuet13/LymphoML.git
 cd LymphoML
 
 # Install dependencies
 pip install -r requirements.txt
-```
 
 ### Training the Models
 
-```bash
-# Train the teacher model
-python main.py --config configs/teacher_config.json
+**Step 1: Train the Teacher Model**
 
+```bash
+python main.py --config configs/teacher_config.json
+```
+
+This will train the teacher model and save checkpoints in the `checkpoint/` directory.
+
+**Step 2: Train Student Models (Requires Teacher Checkpoint)**
+
+Before training student models, update the `teacher_checkpoint` path in the respective config files (`configs/Student1_config.json` and `configs/Student2_config.json`) to point to your trained teacher model checkpoint.
+
+```bash
 # Train Student1 model with knowledge distillation
 python main.py --config configs/Student1_config.json
 
@@ -87,9 +95,7 @@ python main.py --config configs/Student1_config.json
 python main.py --config configs/Student2_config.json
 ```
 
-### FPGA Deployment
 
-For FPGA deployment of the Student2 model, refer to the documentation in the `fpga_deployment` directory.
 
 ## Built With
 
@@ -105,7 +111,9 @@ This project is built with the following frameworks and libraries:
 
 ## License
 
-Distributed under the Apache License. See `LICENSE` for more information.
+Copyright 2025 Khayrul Islam and LymphoML Contributors
+
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](./LICENSE)
 
@@ -113,7 +121,7 @@ Distributed under the Apache License. See `LICENSE` for more information.
 
 Khayrul Islam - [@LinkedIN](https://linkedin.com/in/khayrulbuet13) - khayrulbuet13@alum.lehigh.edu
 
-Project Link: [https://github.com/Khayrulbuet13/MIML](https://github.com/Khayrulbuet13/MIML)
+Project Link: [https://github.com/Khayrulbuet13/LymphoML](https://github.com/Khayrulbuet13/LymphoML.git)
 
 
 ## Acknowledgments

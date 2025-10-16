@@ -1,6 +1,6 @@
 dataset/
 .history/
-.bac
+*.bac
 
 __pycache__/
 checkpoint/
@@ -10,3 +10,34 @@ configs/secrets.json
 **/.pyc
 README.pdf
 inference.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+.hypothesis/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,1 +1,1 @@
-from .CometCallback import CometCallback
+# CometCallback removed - using comet_ml.Experiment directly in trainer.py

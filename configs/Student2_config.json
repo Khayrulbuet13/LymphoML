@@ -12,7 +12,7 @@
     "gpu_id": "2",
     "seed": 42,
     "checkpoint_dir": "./checkpoint",
-    "teacher_checkpoint": "checkpoint/teacher_03_March-final.pt",
+    "teacher_checkpoint": "checkpoint/teacher_model.pt",
     "teacher_image_size": 120,
     "student_image_size": 48,
     "temperature": 1.0,

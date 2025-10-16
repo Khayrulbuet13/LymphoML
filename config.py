@@ -23,7 +23,7 @@ class TrainingConfig:
     comet_workspace: str = ""
     comet_project_name: str = ""
     checkpoint_dir: str = "./checkpoint"
-    teacher_checkpoint: str = "checkpoint/Final_models/Teacher_imsize-120_30 September 22:37.pt"
+    teacher_checkpoint: str = "checkpoint/teacher_model.pt"
     
     def __post_init__(self):
         if self.gpu_id is not None:
